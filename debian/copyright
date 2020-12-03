@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: aprs-symbols
-Source: <url://example.com>
+Source: https://github.com/hessu/aprs-symbols
 
 Files: *
 Copyright: 2015 Heikki Hannikainen
@@ -10,7 +10,7 @@ Copyright: 2015 Heikki Hannikainen
 License: MIXED
  The copyright status of this collection is a bit complicated, since the
  symbols come from various sources, each having different copyright owners.
-
+ .
  Most of the vectorized symbols are loosely based on the low-resolution
  "standard" bitmap symbol set as distributed by Stephen Smith, WA8LMF. That
  set is used by most APRS software around the world. The low resolution of
@@ -21,28 +21,26 @@ License: MIXED
  probably similar enough to the originals, so that they cannot be considered
  "original work" by myself. In some of these cases, the originals are probably
  also mimicking someone else's design.
-
+ .
  The original symbols do not come with any information on their licensing.
  They've been distributed with a lot of APRS software over time, but I don't
  know who designed which symbol originally. Most likely all of them are drawn
  by one of:
-
+ .
  Roger Barker, G4IDE, "original set provided with UI-View" (SK)
  Steve Dimse, KH4G, "U.S. customary set"
  Stephen Smith, WA8LMF
-
+ .
  Some symbols I obtained from other sources, such as Wikipedia. In those cases
  I picked SVG versions which allow commercial reuse (source known, and the
  work is placed on public domain, or with a CC license which allows adaptation
  and commercial reuse).
-
+ .
  Some symbols are vectorized versions of product or brand logos. The copyright
  of those is owned by the respective companies (Apple, Microsoft, Kenwood),
  and each of those may have some opinions on how the logos are used. Please
  check for yourself if you can use them or not.
 
-# If you want to use GPL v2 or later for the /debian/* files use 
-# the following clauses, or change it to suit. Delete these two lines
 Files: debian/*
 Copyright: 2020 Jakob Ketterl <jakob.ketterl@gmx.de>
 License: GPL-2+
@@ -61,8 +59,3 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
-
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.
-# Please avoid picking licenses with terms that are more restrictive than the
-# packaged work, as it may make Debian's contributions unacceptable upstream.
