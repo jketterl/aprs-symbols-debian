@@ -1,4 +1,13 @@
 #!/usr/bin/make -f
 
+export DESTROOT=$(CURDIR)/debian/aprs-symbols
+
 %:
 	dh $@
+
+install:
+	install -d $(DESTROOT)/usr/share/aprs-symbols
+	install -m 0644 *.md $(DESTROOT)/usr/share/aprs-symbols/
+	install -d $(DESTROOT)/usr/share/aprs-symbols/png
+	install -m 0644 png/* $(DESTROOT)/usr/share/aprs-symbols/png/
+
