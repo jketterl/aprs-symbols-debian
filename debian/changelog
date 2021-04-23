@@ -1,3 +1,9 @@
+aprs-symbols (0.0.1-2) hirsute; urgency=low
+
+  * New build for Ubuntu Hirsute Hippo
+
+ -- Jakob Ketterl <jakob.ketterl@gmx.de>  Fri, 23 Apr 2021 16:14:00 +0000
+
 aprs-symbols (0.0.1-1) groovy; urgency=medium
 
   * Initial release
